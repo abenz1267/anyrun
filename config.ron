@@ -1,5 +1,6 @@
 Config(
   width: 800,
+  position: Top, // Center
   plugins: [
     "libapplications.so",
     "libshell.so",
