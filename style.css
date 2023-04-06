@@ -7,10 +7,6 @@
   font-size: 20px;
 }
 
-image#plugin {
-  opacity: 0;
-}
-
 entry {
   margin-top: 400px;
   background: #16161d;
@@ -19,7 +15,9 @@ entry {
   caret-color: #dcd7ba;
 }
 
-entry:focus {
+entry:focus,
+entry:hover,
+entry:active {
   outline: none;
   outline-width: 0px;
   box-shadow: none;
@@ -31,6 +29,11 @@ list#main {
   border: 2px solid #16161d;
   border-top: none;
   background: rgba(31, 31, 40, 0.98);
+}
+
+image,
+image#plugin {
+  opacity: 0;
 }
 
 #plugin {
