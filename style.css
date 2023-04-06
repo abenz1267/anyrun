@@ -33,7 +33,7 @@ list#main {
 
 image,
 image#plugin {
-  opacity: 0;
+  opacity: 1;
 }
 
 #plugin {
