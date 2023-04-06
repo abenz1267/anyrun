@@ -5,11 +5,13 @@
 #window {
   background-color: transparent;
   font-size: 20px;
+  box-shadow: 1px 1px 10px black;
 }
 
 entry {
   margin-top: 400px;
   background: #16161d;
+  background: rgba(31, 31, 40, 1);
   color: #dcd7ba;
   border-radius: 0;
   caret-color: #dcd7ba;
@@ -21,14 +23,16 @@ entry:active {
   outline: none;
   outline-width: 0px;
   box-shadow: none;
-  border: 2px solid #16161d;
+  /* border: 2px solid rgba(31, 31, 40, 1); */
   border-bottom: none;
+  border: none;
 }
 
 list#main {
-  border: 2px solid #16161d;
-  border-top: none;
-  background: rgba(31, 31, 40, 0.98);
+  /* border: 2px solid rgba(31, 31, 40, 1); */
+  border-top: 2px solid #16161d;
+  background: rgba(31, 31, 40, 1);
+  /* margin-top: 4px; */
 }
 
 image,
@@ -42,7 +46,7 @@ image#plugin {
 }
 
 label#plugin {
-  opacity: 0.3;
+  opacity: 0.25;
 }
 
 #match {
