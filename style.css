@@ -1,6 +1,9 @@
+* {
+  transition: none;
+}
+
 #window {
   background-color: transparent;
-  color: #dcd7ba;
   font-size: 20px;
 }
 
@@ -10,37 +13,41 @@ image#plugin {
 
 entry {
   margin-top: 400px;
-  /* background: #1f1f28; */
   background: #16161d;
   color: #dcd7ba;
   border-radius: 0;
-  outline: none;
-  outline-width: 0px;
-  border: none;
+  caret-color: #dcd7ba;
 }
 
 entry:focus {
   outline: none;
   outline-width: 0px;
-  border: none;
   box-shadow: none;
+  border: 2px solid #16161d;
+  border-bottom: none;
+}
+
+list#main {
+  border: 2px solid #16161d;
+  border-top: none;
+  background: rgba(31, 31, 40, 0.98);
 }
 
 #plugin {
-  background: #1f1f28;
+  background-color: transparent;
   color: #dcd7ba;
 }
 
 label#plugin {
-  opacity: 0.4;
+  opacity: 0.3;
 }
 
 #match {
-  border-right: 8px solid transparent;
+  border-right: 4px solid transparent;
 }
 
 #match:selected {
   background: transparent;
-  border-right: 8px solid #76946a;
-  color: #76946a;
+  border-right: 4px solid #7e9cd8;
+  color: #7e9cd8;
 }
