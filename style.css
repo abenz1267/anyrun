@@ -1,5 +1,7 @@
 #window {
   background-color: transparent;
+  color: #dcd7ba;
+  font-size: 20px;
 }
 
 image#plugin {
@@ -8,7 +10,8 @@ image#plugin {
 
 entry {
   margin-top: 400px;
-  background: #1f1f28;
+  /* background: #1f1f28; */
+  background: #16161d;
   color: #dcd7ba;
   border-radius: 0;
   outline: none;
@@ -23,15 +26,21 @@ entry:focus {
   box-shadow: none;
 }
 
-#main {
-  color: #dcd7ba;
-}
-
 #plugin {
   background: #1f1f28;
   color: #dcd7ba;
 }
 
+label#plugin {
+  opacity: 0.4;
+}
+
+#match {
+  border-right: 8px solid transparent;
+}
+
 #match:selected {
-  background: #76946a;
+  background: transparent;
+  border-right: 8px solid #76946a;
+  color: #76946a;
 }
