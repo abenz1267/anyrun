@@ -1,3 +1,7 @@
+#window {
+  background-color: transparent;
+}
+
 entry:focus {
   outline: none;
   outline-width: 0px;
@@ -5,6 +9,7 @@ entry:focus {
 }
 
 entry {
+  margin-top: 400px;
   background: #1f1f28;
   color: #dcd7ba;
   border-radius: 0;
