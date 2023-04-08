@@ -5,7 +5,6 @@
 #window {
   background-color: transparent;
   font-size: 20px;
-  box-shadow: 1px 1px 10px black;
 }
 
 entry {
@@ -33,6 +32,10 @@ list#main {
   /* border-top: 2px solid #16161d; */
   background: rgba(31, 31, 40, 0.5);
   /* margin-top: 4px; */
+}
+
+list#main > :first-child {
+  margin-left: 4px;
 }
 
 image,

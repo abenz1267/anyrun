@@ -1,7 +1,8 @@
 Config(
-  width: 800,
+  width: 600,
   position: Top, // Center
   hide_icons: true,
+  hide_plugin_info: true,
   plugins: [
     "libapplications.so",
     "libshell.so",
