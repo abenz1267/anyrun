@@ -7,13 +7,16 @@
   font-size: 20px;
 }
 
-entry {
+box#main {
   margin-top: 400px;
-  background: #16161d;
-  background: rgba(31, 31, 40, 1);
+}
+
+entry {
+  background: rgba(31, 31, 40, 0.8);
   color: #dcd7ba;
   border-radius: 0;
   caret-color: #dcd7ba;
+  padding: 10px 8px;
 }
 
 entry:focus,
@@ -22,16 +25,12 @@ entry:active {
   outline: none;
   outline-width: 0px;
   box-shadow: none;
-  /* border: 2px solid rgba(31, 31, 40, 1); */
   border-bottom: none;
   border: none;
 }
 
 list#main {
-  /* border: 2px solid rgba(31, 31, 40, 1); */
-  /* border-top: 2px solid #16161d; */
   background: rgba(31, 31, 40, 0.5);
-  /* margin-top: 4px; */
 }
 
 list#main > :first-child {
@@ -54,6 +53,7 @@ label#plugin {
 
 #match {
   border-right: 4px solid transparent;
+  padding: 5px 0;
 }
 
 #match:selected {
