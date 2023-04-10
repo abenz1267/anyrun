@@ -12,7 +12,7 @@ box#main {
 }
 
 entry {
-  background: rgba(31, 31, 40, 0.8);
+  background: rgba(31, 31, 40, 0.95);
   color: #dcd7ba;
   border-radius: 0;
   caret-color: #dcd7ba;
@@ -30,7 +30,7 @@ entry:active {
 }
 
 list#main {
-  background: rgba(31, 31, 40, 0.5);
+  background: rgba(31, 31, 40, 0.9);
 }
 
 list#main > :first-child {
