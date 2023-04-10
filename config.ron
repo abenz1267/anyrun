@@ -1,5 +1,6 @@
 Config(
-  width: 600,
+  width: 3440,
+  height: 1440,
   position: Top, // Center
   hide_icons: true,
   hide_plugin_info: true,

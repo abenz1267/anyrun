@@ -3,16 +3,18 @@
 }
 
 #window {
-  background-color: transparent;
+  background: rgba(22, 22, 29, 0.6);
   font-size: 20px;
 }
 
 box#main {
   margin-top: 400px;
+  margin-left: 1420px;
+  margin-right: 1420px;
 }
 
 entry {
-  background: rgba(31, 31, 40, 0.95);
+  background: #16161d;
   color: #dcd7ba;
   border-radius: 0;
   caret-color: #dcd7ba;
@@ -30,7 +32,7 @@ entry:active {
 }
 
 list#main {
-  background: rgba(31, 31, 40, 0.9);
+  background: rgba(31, 31, 40, 1);
 }
 
 list#main > :first-child {
