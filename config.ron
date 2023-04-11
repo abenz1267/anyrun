@@ -1,7 +1,6 @@
 Config(
-  width: 3440,
-  height: 1440,
-  position: Top, // Center
+  width: 600,
+  position: Fullscreen, // Center
   hide_icons: true,
   hide_plugin_info: true,
   plugins: [
