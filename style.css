@@ -3,8 +3,17 @@
 }
 
 #window {
-  background: rgba(22, 22, 29, 0.6);
   font-size: 20px;
+  animation: fadeIn 250ms forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    background: rgba(22, 22, 29, 0);
+  }
+  to {
+    background: rgba(22, 22, 29, 0.6);
+  }
 }
 
 box#main {
