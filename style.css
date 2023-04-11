@@ -58,6 +58,11 @@ label#plugin {
   padding: 5px 0;
 }
 
+#match-desc {
+  opacity: 0.5;
+  font-size: 18px;
+}
+
 #match:selected {
   background: transparent;
   border-right: 4px solid #7e9cd8;
