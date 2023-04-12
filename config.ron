@@ -1,7 +1,7 @@
 Config(
-  width: 600,
+  width: Absolute(600),
   position: Center,
-  vertical_offset: -250,
+  vertical_offset: Absolute(-250),
   hide_icons: true,
   ignore_exclusive_zones: true,
   layer: Overlay,
