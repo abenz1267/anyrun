@@ -2,6 +2,7 @@ Config(
   width: 600,
   hide_icons: true,
   ignore_exclusive_zones: true,
+  layer: Overlay,
   hide_plugin_info: true,
   plugins: [
     "libapplications.so",
